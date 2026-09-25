@@ -1,42 +1,36 @@
-# Tudorache_NicolaeAlexandru_assignment05
+# 📝 To-Do List Application
 
-This template should help get you started developing with Vue 3 in Vite.
+> O aplicație web simplă, rapidă și intuitivă pentru gestionarea sarcinilor zilnice.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📖 Despre Proiect
 
-## Recommended Browser Setup
+**To-Do List** este o aplicație web interactivă concepută pentru a ajuta utilizatorii să își organizeze activitățile zilnice. Proiectul demonstrează utilizarea eficientă a manipulării DOM în JavaScript, gestionarea evenimentelor și salvarea stării aplicației direct în browser.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Type Support for `.vue` Imports in TS
+## 🛠️ Tehnologii Utilizate
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+* **HTML5** – Structură semantică și accesibilă pentru interfața aplicației.
+* **CSS3** – Stilizare modernă, layout responsive și efecte vizuale la interacțiune.
+* **JavaScript (ES6+)** – Logica de funcționare, manipulare DOM și stocare de date.
+* **LocalStorage API** – Salvarea sarcinilor local pentru a fi păstrate după reîncărcarea paginii.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## ✨ Caracteristici Principale
 
-## Project Setup
+- ➕ **Adăugare sarcini:** Permite adăugarea rapidă a noilor activități.
+- ✅ **Marcare ca finalizat:** Posibilitatea de a bifa sarcinile îndeplinite.
+- 🗑️ **Ștergere sarcini:** Eliminarea sarcinilor nedorite sau finalizate.
+- 💾 **Persistența datelor:** Sarcinile rămân salvate în browser utilizând `localStorage`.
+- 📱 **Design Responsive:** Interfață adaptată pentru utilizare pe desktop și dispozitive mobile.
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## 🚀 Cum se rulează proiectul local
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+1. **Clonează repozitoriul:**
+   ```bash
+   git clone [https://github.com/TNAlex/ToDo-List.git](https://github.com/TNAlex/ToDo-List.git)
